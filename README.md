@@ -46,6 +46,8 @@ Used conditional formatting to highlight important trends and insights in the da
 ``` excel
 =IFS(J3<=20,"Low",J3<=50,"Medium",J3>=50,"High")
 ```
+## Analysis
+### Revenue by Region
 
 
 
