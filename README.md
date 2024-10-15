@@ -1,5 +1,6 @@
 # Data Portfolio
 ## Project Title: Sales Analysis
+
 ### Overview
 This project analyzes sales data from various stores across different regions and markets. The dataset includes key metrics such as revenue, units sold, fiscal period, and line of business, providing valuable insights into sales performance across multiple dimensions. The goal of the analysis is to uncover trends, identify areas of improvement, and provide actionable insights to enhance business operations.
 
@@ -31,13 +32,13 @@ This analysis was done using microsoft excel.
 #### Data Cleaning
 Used Excel functions such as IF, TRIM, and DATEVALUE to clean the data.
 
-### Data Analysis
+#### Data Analysis
 Used pivot tables to;
 Compare sales (revenue and units sold) across different regions and markets
 Rank stores by total revenue and units sold
 Identifying trends and patterns in the fiscal periods
 
-### Data Visualization
+#### Data Visualization
 Created Excel charts (bar charts, line charts, and pie charts) to visualize key metrics, such as revenue trends, top-performing stores, and market performance.
 Used conditional formatting to highlight important trends and insights in the data (e.g., top 10 stores, low-performing markets).
 
@@ -45,6 +46,7 @@ Used conditional formatting to highlight important trends and insights in the da
 ``` excel
 =IFS(J3<=20,"Low",J3<=50,"Medium",J3>=50,"High")
 ```
+
 
 
 
