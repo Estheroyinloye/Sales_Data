@@ -78,7 +78,7 @@ The dataset includes:
 
 ### Insights
 
-#### Insight 1: Product Count by Region
+#### Insight 1: Product Sales by Region
 Each region recorded a total product count of 12,500 units.
 - Hats: East region sold the most hats, while South sold none. North and West sold half the volume of East.
 - Gloves: South region had the highest glove sales, while West sold half of South's volume. East and North had no glove sales.
@@ -140,6 +140,25 @@ Summary: Monthly sales trends indicate February as the peak sales month in both 
 - Both years showed a slight decrease in Q4, but 2023 had a more stable performance than 2024.
 
 Summary: Comparing 2023 and 2024 quarterly trends, Q1 sales were higher in 2024, though both years experienced significant drops in Q2—more severe in 2023. While 2023 saw a rebound in Q3, 2024 continued to decline, emphasizing a divergence in mid-year performance. This year-over-year breakdown highlights possible seasonal adjustments in consumer behaviour, prompting a closer look at why Q3 and Q4 performance weakened in 2024.
+
+### Visualizations
+
+### Inference
+- The West region consistently leads in sales, contributing nearly 40% of the total.
+- South region has the highest sales for certain products but shows a steady decline in quarterly sales.
+- Socks, shoes, and shirts are most popular in Q1 and Q3, while hats, gloves, and jackets peak in Q2 and Q4, suggesting seasonal demand.
+- 2024 shows a broader sales decline across quarters compared to 2023, possibly indicating a shift in market demand or inventory issues.
+
+### Recommendations
+- Focus on High-Demand Products by Region: Increase inventory for hats and gloves in regions with strong sales histories like East and South.
+- Optimize Inventory for Seasonal Peaks: Prepare for Q1 and Q3 with more stock of socks, shoes, and shirts, and increase hats, gloves, and jackets in Q2 and Q4.
+- Investigate 2024 Sales Decline: Analyze factors contributing to the sales drop in 2024, particularly for jackets and socks, to adjust pricing or marketing strategies.
+- Boost Marketing in West Region: Leverage the West’s leading position by increasing targeted marketing efforts and promotions to sustain and grow its 39% market share.
+
+### Conclusion
+The analysis highlights the dominance of the West region in sales and the strong performance of specific products during seasonal peaks. 2024 saw a broader decline in sales, particularly for jackets and socks. Seasonal demand cycles are evident, with Q1 and Q3 favoring socks, shoes, and shirts, and Q2 and Q4 favoring hats, gloves, and jackets. Targeted adjustments in inventory and regional marketing are recommended to capitalize on these trends.
+
+
 
 
 
