@@ -1,7 +1,7 @@
 # Sales Data
 ## Project Title: Kikelomo Stores Sales Analysis
 
-![](Store_Image.avif)
+![](6946EF2B-755F-4352-83A7-7A1D1277AFCF_4_5005_c.jpeg)
 
 ### Introduction
 This is a Microsoft Excel project on sales analysis of an imaginary store called **Kikelomo Stores**. 
