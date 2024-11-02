@@ -30,8 +30,8 @@ The project is aimed at analysing and deriving insights to answer critical quest
 The data was obtained from an open-source data site as a CSV file, after which it was cleaned, analysed, and visualized with Microsoft Excel.
 
 ### Data Transformation and cleaning
-To clean the data, duplicates and blanks were removed from from the table.
- A new column was also created for  **TotalSales** using the formula 
+To clean the data, duplicates and blanks were removed from from the table using the " Remove duplicate" and "filter" button in excel.
+A new column was also created for  **TotalSales** using the formula.
 ``` excel
  UnitPrice * Quantity
 ```
