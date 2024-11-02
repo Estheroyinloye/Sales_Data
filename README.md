@@ -93,6 +93,11 @@ The report comprises of
 
 
 
+![](Kikeloo Stores Report.png)
+
+
+
+
 
 
 
