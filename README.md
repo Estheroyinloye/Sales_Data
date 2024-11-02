@@ -21,10 +21,10 @@ The project is aimed at analysing and deriving insights to answer critical quest
 - Any other relevant insights.
 
 ### Excel Concept applied
--Excel functions; IF, IFS, TRIM, X-LOOKUP
--Pivot tables
--filters
--Slicers.
+- Excel functions; IF, IFS, TRIM, X-LOOKUP
+- Pivot tables
+- Filters
+- Slicers.
 
 ### Data Source
 The data was obtained from an open-source data site as a CSV file, after which it was cleaned, analysed, and visualized with Microsoft Excel.
