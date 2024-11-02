@@ -64,6 +64,10 @@ South showed the highest sales in both 2023 and 2024 while the west region indic
 4.	Comparing 2023 and 2024 quarterly trends, Q1 sales were higher in 2024, though both years experienced significant drops in Q2—more severe in 2023. While 2023 saw a rebound in Q3, 2024 continued to decline
 5.	Monthly sales trends indicate February as the peak sales month in both years, with April and July showing consistent dips
 
+### Conclusion
+The analysis highlights the dominance of the West region in sales and the strong performance of specific products during seasonal peaks. 2024 saw a broader decline in sales, particularly for jackets and socks. Seasonal demand cycles are also evident, with Q1 and Q3 favoring socks, shoes, and shirts, and Q2 and Q4 favoring hats, gloves, and jackets. !
+
+
 
 
 
