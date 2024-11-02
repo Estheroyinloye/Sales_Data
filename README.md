@@ -1,62 +1,4 @@
-# Data Portfolio
-## Project Title: Sales Analysis
-
-### Overview
-This project analyzes sales data from various stores across different regions and markets. The dataset includes key metrics such as revenue, units sold, fiscal period, and line of business, providing valuable insights into sales performance across multiple dimensions. The goal of the analysis is to uncover trends, identify areas of improvement, and provide actionable insights to enhance business operations.
-
-### Project Objectives
-The main objectives of this project are:  
-- To understand the sales performance by analysing the revenue and units sold across various regions, markets, and stores.
-- To Identify Top-Performing Stores and Markets by analysing which stores are the highest revenue generators.
-- To To determine which business lines and sales models contribute most to overall revenue by analyzing the Line of Business and Sales Models.
-- To Provide Data-Driven Recommendations based on the analysis.
-
-### Data Source
-The primary source of the data used for this project is ....
-
-### Dataset Description
-The Dataset consist of the following columns; 
-- Region: Geographical area where the store operates.
-- Market: Subdivision within the region to identify specific target markets.
-- Store: Unique ilocation of each store
-- Trade Date: Date when the transaction occurred.
-- Fiscal Period: The accounting period in which the transaction was recorded.
-- Line of Business: The unique organization sector that the or transaction falls under.
-- Revenue: Total amount generated from sales.
-- Units Sold: The number of units sold in each transaction.
-- Transaction Category: Classification of the transaction based on the unit sold (Low, medium, high).
-
-### Tools and Methods used
-This analysis was done using microsoft excel.
-
-#### Data Cleaning
-- Used Excel functions such as IFS, TRIM, and DATE to clean and standardize the data.
-
-#### Data Analysis
-Used pivot tables to;
-- Compare sales (revenue and units sold) across different regions and markets
-- Rank stores by total revenue and units sold
-- Identify trends and patterns in the fiscal periods
-Used conditional formatting to highlight important trends and insights in the data (e.g., top 10 stores, low-performing markets).
-
-
-#### Data Visualization
-- Created Excel charts (bar charts, line charts, and pie charts) to visualize key metrics, such as revenue trends, top-performing stores, and market performance.
-
-
-### Formulas used
-``` excel
-=IFS(J3<=20,"Low",J3<=50,"Medium",J3>=50,"High")
-```
-## Analysis
-### Revenue by Region
-
-
-
-
-
-
-# Project 2
+# Sales Data
 ## Project Title: Kikelomo Stores Sales Analysis 
 
 ### Introduction
@@ -77,7 +19,10 @@ The project is aimed at analysing and deriving insights to answer critical quest
 - Any other relevant insights.
 
 ### Excel Concept applied
-Excel functions; IF, IFS, TRIM, X-LOOKUP, filters, Slicers.
+-Excel functions; IF, IFS, TRIM, X-LOOKUP
+-Pivot tables
+-filters
+-Slicers.
 
 ### Data Source
 The data was obtained from an open-source data site as a CSV file, after which it was cleaned, analysed, and visualized with Microsoft Excel.
@@ -96,19 +41,16 @@ The report comprises of
 - Customer History
 
 #### Regional History
-#### Yearly History
-#### Product History
-#### Customer History
-
 ![](11C282BA-CB08-4CE5-89FB-763170866BBC_1_201_a.jpeg)
 
 
+#### Product History
 ![](3120E8E9-A1E9-4025-9DDF-8722EDEDA3A4_1_201_a.jpeg)
 
-
+#### Yearly History
 ![](4E6F066C-ED6A-47B0-A7AD-72C7EF6FB919_1_201_a.jpeg)
 
-
+#### Customer History
 ![](FCCE545F-32F3-437B-A71D-FE475100BC04_1_201_a.jpeg)
 
 
