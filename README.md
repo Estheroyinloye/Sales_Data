@@ -24,7 +24,7 @@ The project is aimed at analysing and deriving insights to answer critical quest
 - Excel functions; IF, IFS, TRIM, X-LOOKUP
 - Pivot tables
 - Filters
-- Slicers.
+- Slicers
 
 ### Data Source
 The data was obtained from an open-source data site as a CSV file, after which it was cleaned, analysed, and visualized with Microsoft Excel.
