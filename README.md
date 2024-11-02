@@ -30,17 +30,19 @@ The Dataset consist of the following columns;
 This analysis was done using microsoft excel.
 
 #### Data Cleaning
-Used Excel functions such as IF, TRIM, and DATEVALUE to clean the data.
+- Used Excel functions such as IFS, TRIM, and DATE to clean and standardize the data.
 
 #### Data Analysis
 Used pivot tables to;
-Compare sales (revenue and units sold) across different regions and markets
-Rank stores by total revenue and units sold
-Identifying trends and patterns in the fiscal periods
+- Compare sales (revenue and units sold) across different regions and markets
+- Rank stores by total revenue and units sold
+- Identify trends and patterns in the fiscal periods
+Used conditional formatting to highlight important trends and insights in the data (e.g., top 10 stores, low-performing markets).
+
 
 #### Data Visualization
-Created Excel charts (bar charts, line charts, and pie charts) to visualize key metrics, such as revenue trends, top-performing stores, and market performance.
-Used conditional formatting to highlight important trends and insights in the data (e.g., top 10 stores, low-performing markets).
+- Created Excel charts (bar charts, line charts, and pie charts) to visualize key metrics, such as revenue trends, top-performing stores, and market performance.
+
 
 ### Formulas used
 ``` excel
@@ -55,110 +57,39 @@ Used conditional formatting to highlight important trends and insights in the da
 
 
 # Project 2
-## Project Title: Sales Analysis Report
+## Project Title: Kikelomo Stores Sales Analysis 
 
-### Project Overview
-This project investigates product sales across different regions over two years (2023 and 2024), focusing on regional preferences, product popularity, and quarterly and monthly sales patterns. The objective is to provide data-driven insights for improving sales strategy and resource allocation.
+### Introduction
+This is a Microsoft Excel project on sales analysis of an imaginary store called **Kikelomo Stores**. 
+The project is aimed at analysing and deriving insights to answer critical questions and help the store make data driven decusions.
+**_Disclaimer_**: _All datasets and reports do not represent any company, institution or country but a dummy dataset to demonstrate the cabability of Microsoft  Excel._
 
-### Project Objectives
-- Identify which products and regions generate the most sales.
-- Analyze seasonal product demand and quarterly trends.
-- Examine year-over-year changes in sales across regions and products.
-- Offer recommendations for inventory and marketing based on insights.
+### Problem Statement
+Which region generates the highest sales ?
+Which region generates the least sales ?
+Which product has the highest total sales ?
+What is the total sales trend year-on-year ?
+What is the total sales trend quarter-on-quarter ?
+Which product has the highest sales  year-on-year?
+What are the top 3 products by total sales? 
+What are the bottom 3 products by total sales?
+Who are the top 10 customers?
+Any other relevant insights.
 
-### Data Collected
-The dataset includes:
-- Product Types: Hats, Gloves, Jackets, Shirts, Socks, and Shoes.
-- Regions: East, North, South, and West.
-- Sales Volumes: Total product counts and total sales figures by region, year, and quarter.
-- Time Periods: Annual, quarterly, and monthly data for 2023 and 2024.
+### Excel Concept applied
+Excel functions; IF, IFS, TRIM, X-LOOKUP, filters, Slicers.
 
-### Tools used
-- Excel for data cleaning, analysis and visualization
+### Data Source
+The data was obtained from an open-source data site as a CSV file, after which it was cleaned, analysed, and visualized with Microsoft Excel.
 
-### Insights
-
-#### Insight 1: Product Sales by Region
-Each region recorded a total product count of 12,500 units.
-- Hats: East region sold the most hats, while South sold none. North and West sold half the volume of East.
-- Gloves: South region had the highest glove sales, while West sold half of South's volume. East and North had no glove sales.
-- Jackets: Only East and North sold jackets, with North having double the sales of East.
-- Shirts: Only East and North sold shirts, with North recording double the sales of East.
-- Socks: Sold exclusively in West and South, with West doubling South's sales.
-  
-Summary: Each region stocked an equal total of 12,500 products, but specific product sales varied greatly by region. For instance, hats sold highest in the East, while gloves dominated in the South. North and East took the lead in jacket sales, while socks and shirts saw strong regional preferences, with the West leading in sock sales and North excelling in shirt sales. These distinctions suggest each region has unique customer preferences that we could further leverage in our regional marketing strategies.
-
-#### Insight 2: Total Sales by Region
-West region leads in total sales with 4.68 million (39% of total), followed by:
-- East: 2.45 million (20%)
-- South: 1.95 million (17%)
-- North: 1.51 million (24%)
-  
-Summary: The West region significantly outperformed others in total sales, reaching $4.68 million, followed by the East at $2.45 million, the South at $1.95 million, and North trailing with $1.51 million. This suggests that the West region could serve as a benchmark for success strategies, while North may need targeted campaigns to improve performance.
-
-#### Insight 3: Regional Sales by Year
-- 2023: South recorded the highest sales while West had the lowest. North's sales were also low, similar to West.
-- 2024: South continued to lead, followed by East, with West again showing the lowest sales. North’s performance was slightly above West’s.
-Year-over-Year Trend: There is a general reduction in sales across all regions except North and West.
-
-Summary: In 2023, the South region led in sales, with West showing the least sales. North had lower sales levels similar to the West, while East closely mirrored South's performance. In 2024, sales dropped in all regions except North and West, indicating potential economic or consumer preference shifts. These findings could guide us to revisit strategies for each region based on shifting demand.
-
-#### Insight 4: Product Sales by Year
-- 2023: Shirts were the highest-selling product, while hats had the lowest sales.
-- 2024: There was an increase in hat and shoe sales, while jackets and socks saw significant declines. Gloves maintained similar sales levels across both years.
-  
-Summary: In 2023, shirts had the highest sales among products, while hats struggled to gain traction. By 2024, we observed dips in jacket and sock sales, while hats and shoes saw an increase. Gloves maintained consistent sales across both years. This points to changing product popularity, highlighting a possible need to adjust our inventory or focus on seasonal trends in product demand.
-
-#### Insight 5: Quarterly Sales by Product
-
-#### 2023:
-- Q1: Socks and shoes had the highest sales, while gloves had the least.
-- Q2: Increased sales in most products except socks and shoes, which saw a decline.
-- Q3: Increased sales for socks, shoes, and shirts; decreased sales for jackets, hats, and gloves.
-- Q4: Decline in shoes and shirts, slight increase in hats and gloves, with jackets seeing a strong upward trend.
-  
-#### 2024:
-- Q1: Socks, shoes, and shirts continued to have high sales, outperforming jackets, hats, and gloves.
-- Q2: Decline in sales for socks, shoes, and shirts, with an increase in gloves, hats, and jackets.
-- Q3: Minor increases in hats and shoes, slight declines in socks and shirts, with gloves experiencing a significant drop.
-- Q4: Slight increase in jackets and stable sales for gloves; other products remained steady.
-
-Summary: Quarterly performance showed significant seasonal shifts. In 2023, Q1 was strong for socks and shoes, with gloves lagging. Q3 was particularly favorable for socks, shoes, and shirts, while jackets performed best in Q4. The 2024 trends were similar but with some weaknesses, especially in Q3 for gloves. Understanding these quarterly patterns can inform our seasonal promotions, inventory planning, and product launches.
-
-#### Insight 6: Monthly Sales by Year
-#### 2023: February had the highest sales, while April had the lowest.
-Sales steadily increased from May to July, followed by a dip in August and moderate increases in September and October before declining again in November and December.
-#### 2024: February was again the peak sales month, while July saw the lowest sales.
-Sales declined from March to May, rose in June, dipped in July, and then increased through August. Another gradual increase occurred from September to October, followed by a steady decline in the last two months.
-
-Summary: Monthly sales trends indicate February as the peak sales month in both years, with April and July showing consistent dips. In 2024, we observed a steady decline from March to May, followed by a brief recovery in June and another drop in July. These cyclical patterns suggest the need to plan promotional activities and inventory around predictable high and low months.
-
-#### Insight 7: Quarterly Sales Breakdown by Year
-- 2024 Q1 sales were higher than 2023 Q1.
-- Both years experienced a decline in Q2, though the drop in 2023 was sharper.
-- In Q3, 2023 sales rebounded, whereas 2024 saw a continued decline.
-- Both years showed a slight decrease in Q4, but 2023 had a more stable performance than 2024.
-
-Summary: Comparing 2023 and 2024 quarterly trends, Q1 sales were higher in 2024, though both years experienced significant drops in Q2—more severe in 2023. While 2023 saw a rebound in Q3, 2024 continued to decline, emphasizing a divergence in mid-year performance. This year-over-year breakdown highlights possible seasonal adjustments in consumer behaviour, prompting a closer look at why Q3 and Q4 performance weakened in 2024.
-
-### Visualizations
-
-### Inference
-- The West region consistently leads in sales, contributing nearly 40% of the total.
-- South region has the highest sales for certain products but shows a steady decline in quarterly sales.
-- Socks, shoes, and shirts are most popular in Q1 and Q3, while hats, gloves, and jackets peak in Q2 and Q4, suggesting seasonal demand.
-- 2024 shows a broader sales decline across quarters compared to 2023, possibly indicating a shift in market demand or inventory issues.
-
-### Recommendations
-- Focus on High-Demand Products by Region: Increase inventory for hats and gloves in regions with strong sales histories like East and South.
-- Optimize Inventory for Seasonal Peaks: Prepare for Q1 and Q3 with more stock of socks, shoes, and shirts, and increase hats, gloves, and jackets in Q2 and Q4.
-- Investigate 2024 Sales Decline: Analyze factors contributing to the sales drop in 2024, particularly for jackets and socks, to adjust pricing or marketing strategies.
-- Boost Marketing in West Region: Leverage the West’s leading position by increasing targeted marketing efforts and promotions to sustain and grow its 39% market share.
-
-### Conclusion
-The analysis highlights the dominance of the West region in sales and the strong performance of specific products during seasonal peaks. 2024 saw a broader decline in sales, particularly for jackets and socks. Seasonal demand cycles are evident, with Q1 and Q3 favoring socks, shoes, and shirts, and Q2 and Q4 favoring hats, gloves, and jackets. Targeted adjustments in inventory and regional marketing are recommended to capitalize on these trends.
-
-
+### Data Transformation and cleaning
+To clean the data, duplicates and blanks were removed from from the table.
+ A new column was created for  **TotalSales** using the formula 
+``` excel
+ UnitPrice * Quantity
+```
+### Data Analysis and Visualization
+The report comprises of 
 
 
 
