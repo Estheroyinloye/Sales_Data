@@ -44,10 +44,11 @@ The report comprises of
 
 #### Regional History
 ![](11C282BA-CB08-4CE5-89FB-763170866BBC_1_201_a.jpeg)
-
+South showed the highest sales in both 2023 and 2024 while the west region indicated the least sales in both year.
 
 #### Product History
 ![](3120E8E9-A1E9-4025-9DDF-8722EDEDA3A4_1_201_a.jpeg)
+
 
 #### Yearly History
 ![](4E6F066C-ED6A-47B0-A7AD-72C7EF6FB919_1_201_a.jpeg)
