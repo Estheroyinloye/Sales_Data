@@ -93,7 +93,7 @@ The report comprises of
 
 
 
-![](Kikeloo Stores Report.png)
+![](Kikelomo Stores Report.png)
 
 
 
